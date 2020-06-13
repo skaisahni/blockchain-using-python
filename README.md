@@ -5,25 +5,29 @@ This README would normally document whatever steps are necessary to get your app
 ### What is this repository for? ###
 
 * Blockchain using  Python 
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+  This project to understand how blockchain work and try to perform consensus algorithm POW which give
+  full information how this technology works.
+* Version=1.0.0
 
 ### How do I get set up? ###
 
 * Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
 
-### Contribution guidelines ###
+* Configuration:
+	
+    Make sure Python 3.6+ is installed.
+    Install pipenv.
 
-* Writing tests
-* Code review
-* Other guidelines
+$ pip install pipenv 
 
-### Who do I talk to? ###
+    Install requirements
 
-* Repo owner or admin
-* Other community or team contact
+$ pipenv install 
+
+    Run the server:
+        $ pipenv run python blockchain.py
+        $ pipenv run python blockchain.py -p 5001
+        $ pipenv run python blockchain.py --port 5002
+
+
+
